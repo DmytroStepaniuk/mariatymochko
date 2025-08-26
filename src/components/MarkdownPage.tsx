@@ -9,7 +9,7 @@ const MarkdownPage: React.FC<MarkdownPageProps> = ({ fileName }) => {
   const [content, setContent] = useState('');
 
   useEffect(() => {
-    fetch(`/content/${fileName}`)
+  fetch(`content/${fileName}`)
       .then((res) => res.text())
       .then(setContent);
   }, [fileName]);
