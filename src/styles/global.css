@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  min-height: 100vh;
+}
+
+.site-bg {
+  min-height: 100vh;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(2px);
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar a {
+  color: #3a3a3a;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #6a11cb;
+}
+
+.content {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgba(255,255,255,0.7);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+.markdown-body {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #222;
+}
